@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="responsive.css">
+    <title>Real Estate</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="script.js" class="js">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+<div class="allparent ">
+    <div class="hero_Container">
+        <nav data-aos="fade-down" class="navbar navbar-expand-md">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="assets/img/Logo.png" alt="">
+              </a>
+              <button class=" navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Buy</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Sell</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Mortgage Property
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Property 1</a></li>
+                      <li><a class="dropdown-item" href="#">Property 2</a></li>
+                      <li><a class="dropdown-item" href="#">Property 3</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Resources
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Resource 1</a></li>
+                      <li><a class="dropdown-item" href="#">Resource 2</a></li>
+                      <li><a class="dropdown-item" href="#">Resource 3</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <!-- <form class="d-flex" role="search"> -->
+                  <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
+                  <button class="Contact_us_btn" >Contact Us</button>
+                <!-- </form> -->
+              </div>
+            </div>
+        </nav>
+        <div class="container d-flex justify-content-around align-items-center flex-wrap">
+            <div data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
+            <br>
+            <br>
+
+                <h1 class="herosectioncontent">BuY, Sell - All <br>in <span id="colour">One Place</span></h1>
+                <div class="herosectionparacontent">
+                    <p>Buy or sale properties with zero commissions—simplified transactions on our platform.</p>
+                </div>
+
+                <br>
+                <br>
+                <div>
+                    <div class=" d-flex">
+                        <button class="sellbuybtn active">Sell</button> <button class="sellbuybtn">Buy</button>
+                    </div>
+                    <div class="d-flex flex-wrap accordion">
+                      <div class="d-flex">
+                      <div>
+                        <label for="">Location</label><br>
+                        <input type="text" placeholder="Pune, India" class="input">
+                        <div class="vr"></div>
+                      </div>
+                      <div>
+                        <label for="">When</label><br>
+                        <input type="date" placeholder="Select Move-in Date" class="input">
+                        <div class="vr"></div>
+                      </div>
+                    </div>
+                        <button class="herobtn">Browse Properties</button>
+                      </div>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="d-flex justify-content-around flex-wrap">
+                      <div class="servicecard">
+                        <img src="assets\icon\Icon2.png" alt="">
+                        <h2 id="colour" class="fw-semibold">50k+ plots</h2>
+                        <p>believe in our service</p>
+                      </div>
+                      <div class="servicecard">
+                        <img src="assets\icon\Icon.png" alt="">
+                        <h2 id="colour" class="fw-semibold">10k+ properties</h2>
+                        <p>and house ready for occupancy</p>
+                      </div>
+                    </div>
+                </div>
+                <img data-aos="fade-left"  src="assets\img\Group 1171274814.png" alt="hero section sideimg" class="hero_section_sideimg">
+            </div>
+        </div>
+
+<!-- 2 Sectoion Looking for-->
+    <div class="py-3 smallcard"> 
+        <div class="lookingfor ">
+            <center data-aos="fade-up"
+            data-aos-duration="12000">
+                <h2>What You Area Looking For</h2>
+                <p class="py-2">Mauris primis turpis Laoreet magna felis mi amet quam enim curae. Sodales semper tempor dictum faucibus habitasse.</p>
+            </center>
+            <div class="container ">
+                <div class="d-flex flex-wrap justify-content-around py-5">
+                    
+                    <div data-aos="zoom-in"  class="position-relative cards">
+                        <img src="assets\img\plot1.jpg" alt="" id="lookingcardssection">
+                        <div class=" position-absolute   introduction ">
+                            
+                                <p>plot</p>
+                            
+                            
+                        </div>
+                    </div>
+                   
+                    <div data-aos="zoom-in" class="position-relative cards">
+                        <img src="assets\img\plot2.jpg" alt="" id="lookingcardssection">
+                        <div class=" position-absolute   introduction ">
+                            
+                                <p>Plot</p>
+                            
+                            
+                        </div>
+                    </div>
+                    <div data-aos="zoom-in" class="position-relative cards">
+                        <img src="assets\img\plot3.jpg" alt="" id="lookingcardssection">
+                        <div class=" position-absolute   introduction ">
+                            
+                                <p>House Apartment</p>
+                            
+                            
+                        </div>
+                    </div>
+                    <div data-aos="zoom-in" class="position-relative cards">
+                        <img src="assets\img\plot4.jpg" alt="" id="lookingcardssection">
+                        <div class=" position-absolute   introduction ">
+                            
+                                <p>House Villa</p>
+                            
+                            
+                        </div>
+                    </div>
+                                </div>
+                    
+                </div>
+
+            </div>
+
+        </div>
+        
+        
+    </div>
+    <br>
+    <br>
+    
+    <!--3 section About US-->
+    <div class="d-flex container position-relative aboutusimg">
+        <div data-aos="fade-right"
+        data-aos-duration="12000" >
+            <img src="assets\img\Rectangle 2.png" alt="">
+        </div>
+        <div data-aos="fade-left"
+        data-aos-duration="12000" class="position-absolute   aboutuscontent ">
+           
+
+                <h2 class="py-2">About US</h2>
+                <p>Vector team main thumbnail vertical scrolling polygon align create arrange. Align link editor fill ipsum figjam. Device italic mask clip export selection figjam. </p>
+                <button>See all properties</button>
+           
+            
+        </div>
+
+    </div>
+    <br>
+    <br>
+
+    <div class="py-4 area ">
+        <Center data-aos="fade-up"
+        data-aos-duration="12000">
+            <h1>What’s Happening in Your Area</h1>
+            <p class="py-3">Whether you're in search of a new residence, an investment opportunity, or simply exploring the area, we are here to assist you in discovering precisely what meets your needs.</p>
+        </Center>
+    </div>
+    
+    <div class=" cardcontent">
+        <div class="container d-flex flex-wrap justify-content-around align-items-center gap-4" ">
+            <div data-aos="zoom-in"  class=" smallcars">
+                <center>
+                    <h2>16k</h2>
+                    <p>Homes For  Plot</p>
+                </center>
+                
+                
+            </div>
+            <div data-aos="zoom-in"  class=" smallcars">
+                <center>
+                    <h2>416</h2>
+                    <p>Homes For Sale</p>
+
+                </center>
+               
+            </div>
+            <div data-aos="zoom-in"  class="smallcars ">
+                <center>
+                    <h2>740</h2>
+                <p>Real Estate Agents</p>
+
+                </center>
+                
+            </div>
+            <div data-aos="zoom-in" class="smallcars">
+                <center>
+                    <h2>251</h2>
+                    <p>Apartments Available</p>
+                </center>
+
+            </div>
+            
+
+            </div>
+            
+
+        </div>
+        
+    </div>
+    
+
+
+    <!--3 section Project-->
+   
+    <div class="d-flex container position-relative projectsection ">
+        <div data-aos="fade-right"
+        data-aos-duration="12000" class="position-absolute p-4 projectaboutsus">
+            <div >
+                <h2>Mega projects</h2>
+                <p>Duplicate plugin flows align layout library. Project device undo outline bold. Variant main frame component auto shadow. Pixel background layer scale pixel. Distribute.</p>
+                <button>See all properties</button>
+
+            </div>
+            
+            
+        </div>
+        
+        <div data-aos="fade-left"
+        data-aos-duration="12000" class="projectsectionimg">
+            <img src="assets\img\Rectangle 3.png" alt="">
+            <img src="assets\img\Rectangle 3.png" alt="">
+        </div>
+
+    </div>
+ <!--4 section Testmonials -->
+   <div class="container d-flex flex-wrap-reverse justify-content-around testmonials-section">
+    <div data-aos="fade-right"
+    data-aos-duration="12000" class="card-content">
+         <p>TESTIMONIALS</p>
+         <h1>Look What Our Customers Say!</h1>
+        <div class="arrows">
+             <h2></h2>
+             <button class="" onclick="right()">
+                <img class="mx-2 prev"  src="assets\img\Frame 58.png" alt="">
+             </button>
+             
+             <button onclick="left()"><img class="mx-5 prev"  src="assets\img\Frame 57.png" alt=""></button>
+             
+        </div>  
+    </div>
+    
+    
+    <div data-aos="fade-left"
+    data-aos-duration="12000" class="testmonials-cards ">
+        <div class="circle ">
+        
+        </div>
+        <div data-aos="fade-left"
+        data-aos-duration="12000" class="d-flex box ">
+        <div class="m-4 ms-xl-5 preview active-preview">
+          <img class="" src="assets\img\test.png" alt="" id="yellow-line">
+          <p class="my-3">I highly recommend Jodi J. Appleby. She was attentive to our needs and worked tirelessly to find us the perfect home. We couldn't be happier with our new place!</p>
+        <hr>
+         <div>
+            <div class="d-flex flex-wrap align-items-center  justify-content-between ">
+                <div class="d-flex align-items-center">
+                <img src="assets\img\Ellipse 15@2x.png" width="50px" alt="" id="">
+                <h5 class="px-3 ">Barbara D. Smith</h5>
+            </div>
+            <div class="d-flex ">
+                <img src="assets\img\icon _star_.png" style="margin-left: 3px; " alt="">
+                <img src="assets\img\icon _star_.png" style="margin-left: 3px;" alt="">
+                <img src="assets\img\icon _star_.png" style="margin-left: 3px;" alt="">
+                <img src="assets\img\icon _star_.png" style="margin-left: 3px;" alt="">
+                <img src="assets\img\icon _star_.png" style="margin-left: 3px;" alt="">
+
+            </div>
+            </div>
+            
+         </div>
+         
+    </div>
+    <div class="m-4 ms-xl-5 preview ">
+        <img class="" src="assets\img\test.png" alt="" id="yellow-line">
+        <p class="my-3">I highly recommend Jodi J. Appleby. She was attentive to our needs and worked tirelessly to find us the perfect home. We couldn't be happier with our new place!</p>
+      <hr>
+       <div>
+          <div class="d-flex flex-wrap align-items-center  justify-content-between ">
+              <div class="d-flex align-items-center">
+              <img src="assets\img\Ellipse 15@2x.png" width="50px" alt="" id="">
+              <h5 class="px-3 ">Barbara D. Smith</h5>
+          </div>
+          <div class="d-flex ">
+            <img src="assets\img\icon _star_.png" style="margin-left: 3px; " alt="">
+            <img src="assets\img\icon _star_.png" style="margin-left: 3px;" alt="">
+            <img src="assets\img\icon _star_.png" style="margin-left: 3px;" alt="">
+            <img src="assets\img\icon _star_.png" style="margin-left: 3px;" alt="">
+            <img src="assets\img\icon _star_.png" style="margin-left: 3px;" alt="">
+
+          </div>
+          </div>
+          
+       </div>
+       
+  </div>
+   
+  <div class="m-4 ms-xl-5 preview  ">
+    <img class="" src="assets\img\test.png" alt="" id="yellow-line">
+    <p class="my-3">I highly recommend Jodi J. Appleby. She was attentive to our needs and worked tirelessly to find us the perfect home. We couldn't be happier with our new place!</p>
+  <hr>
+   <div>
+      <div class="d-flex align-items-center  justify-content-between ">
+          <div class="d-flex align-items-center">
+          <img src="assets\img\Ellipse 15@2x.png" width="50px" alt="" id="">
+          <h5 class="px-3 ">Barbara D. Smith</h5>
+      </div>
+      <div class="d-flex ">
+        <img src="assets\img\icon _star_.png" style="margin-left: 3px; " alt="">
+        <img src="assets\img\icon _star_.png" style="margin-left: 3px;" alt="">
+        <img src="assets\img\icon _star_.png" style="margin-left: 3px;" alt="">
+        <img src="assets\img\icon _star_.png" style="margin-left: 3px;" alt="">
+        <img src="assets\img\icon _star_.png" style="margin-left: 3px;" alt="">
+
+      </div>
+      </div>
+      
+   </div>
+   
+</div>
+
+<div class="m-4 ms-xl-5 preview ">
+    <img class="" src="assets\img\test.png" alt="" id="yellow-line">
+    <p class="my-3">I highly recommend Jodi J. Appleby. She was attentive to our needs and worked tirelessly to find us the perfect home. We couldn't be happier with our new place!</p>
+  <hr>
+   <div>
+      <div class="d-flex align-items-center  justify-content-between ">
+          <div class="d-flex align-items-center">
+          <img src="assets\img\Ellipse 15@2x.png" width="50px" alt="" id="">
+          <h5 class="px-3 ">Barbara D. Smith</h5>
+      </div>
+      <div class="d-flex ">
+        <img src="assets\img\icon _star_.png" style="margin-left: 3px; " alt="">
+        <img src="assets\img\icon _star_.png" style="margin-left: 3px;" alt="">
+        <img src="assets\img\icon _star_.png" style="margin-left: 3px;" alt="">
+        <img src="assets\img\icon _star_.png" style="margin-left: 3px;" alt="">
+        <img src="assets\img\icon _star_.png" style="margin-left: 3px;" alt="">
+
+      </div>
+      </div>
+      
+   </div>
+   
+</div>
+    
+
+
+
+    
+    
+</div>
+</div>
+
+<div class=" lineheight">
+    <h1 class="active"></h1>
+    <h1></h1>
+    <h1></h1>
+</div>
+</div>
+<!--5 section gmail section-->
+<div data-aos="fade-up"
+data-aos-duration="12000" class="d-flex flex-wrap justify-content-around  bcakground-img">
+    <div data-aos="fade-right"
+    data-aos-duration="12000" class="form-content">
+        <h4>We Help You Buy Or Sell Property Quickly</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eleifend vestibulum semper malesuada tristique.
+             Magna at arcu tincidunt felis elementum egestas. </p>
+    </div>
+    <div>
+        <div data-aos="fade-left"
+        data-aos-duration="12000" class="form-container ">
+            <form action="#" class="contact-form">
+               
+                <div class=" ">
+                    <input  type="text"  placeholder="Full Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" name="subject" placeholder="Subject" required>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" placeholder="Message" required></textarea>
+                </div>
+                <div class="form-group mt-3">
+                    <center>
+                         <button type="submit" class="form-button ">SUBMIT</button>
+                    </center>
+                </div>
+            </form>
+        </div>
+    
+    </div>
+</div>
+<br>
+<br>
+<!-- Our partner-->
+
+<div class="d-flex justify-content-center  " style="padding-top: 70px;">
+    <h1 class="" style="font-size: 42px ; font-weight: 900; padding-bottom: 15px;">OUR PARTNER</h1>
+
+</div>
+<div class="my-2 DiscoverSection">
+    
+    <div class="container">
+        
+        
+        <div class="slider1" data-aos="zoom-in">
+
+            <div class="slide-track">
+
+                <div class="technology_slide">
+                    <img src="assets\img\1.png" alt="angular" id="mot">
+                </div>
+
+                <div class="technology_slide">
+                    <img src="assets\img\2.png" alt="bootstrap" id="mot">
+                </div>
+
+                <div class="technology_slide">
+                    <img src="assets\img\3.png" alt="css" id="mot">
+                </div>
+
+                <div class="technology_slide">
+                    <img src="assets\img\4.png" alt="html" id="mot">
+                </div>
+
+                <div class="technology_slide">
+                    <img src="assets\img\1.png" alt="js" id="mot">
+                </div>
+
+                <div class="technology_slide">
+                    <img src="assets\img\2.png" alt="mongodb" id="mot">
+                </div>
+
+                <div class="technology_slide">
+                    <img src="assets\img\1.png" alt="node" id="mot">
+                </div>
+
+
+
+
+                <div class="technology_slide">
+                    <img src="assets\img\4.png" alt="angular" id="mot">
+                </div>
+
+                <div class="technology_slide">
+                    <img src="assets\img\4.png" alt="bootstrap" id="mot">
+                </div>
+
+                <div class="technology_slide">
+                    <img src="assets\img\4.png" alt="css" id="mot">
+                </div>
+
+                <div class="technology_slide">
+                    <img src="assets\img\1.png" alt="html" id="mot">
+                </div>
+
+                <div class="technology_slide">
+                    <img src="assets\img\Rectangle 9.png" alt="js" id="mot">
+                </div>
+
+                <div class="technology_slide">
+                    <img src="assets\img\Rectangle 9.png" alt="mongodb" id="mot">
+                </div>
+
+                <div class="technology_slide">
+                    <img src="assets\img\1.png" alt="node" id="mot">
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<br><br>
+<!--Footer section-->
+<section  class="d-flex  footersection">
+    <div data-aos="fade-right"
+    data-aos-duration="12000">
+        <img src="assets/img/Frame 238 (1).png" alt="" id="footerimg1">
+    </div>
+    <div data-aos="fade-left"
+    data-aos-duration="12000">
+        <img src="assets/img/Frame 239.png" alt=""id="footerimg">
+    </div>
+</section>
+<br> <br>
+<footer class=" py-5 footerback">
+     <div class="d-flex justify-content-around flex-wrap container">
+        <div class="footer-content">
+              <h2 >REALESTATE</h2>
+              <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent</P>
+        </div> 
+        <div class="email-box">
+             <p>For exclusive news and market updates sign up for our newsletter.</p>
+             
+             <div class="d-flex my-4">
+                <div class="input-field">
+                    <i class="fas fa-lock"></i>
+                    <img src="assets\img\fluent_mail-16-filleds.png" width="35px" >
+                    <input type="text" placeholder="Enter your email"style="margin-left: 15px;" >
+                </div>
+             <button type="submit">Submit</button>
+        </div>
+    </div>
+        <div class="contactus">
+             <h5>Contact Us</h5>
+             <div class=" py-4">
+             <p>(+91) 00000000</p>
+             <p>Info@domain.com</p>
+             <p>Pune</p>
+            </div>
+        </div>
+        <div>
+            <h5 class="text-center">Follow Us</h5>
+            <div class="my-4 social-media">
+             <a href="#"><img src="assets/img/akar-icons_facebook-fill.png" alt=""></a>
+             <a href="#"><img src="assets/img/Vector.png" alt=""></a>
+             <a href="#"><img src="assets/img/Vector (1).png" alt=""></a>
+             <a href="#"><img src="assets/img/Vector (2).png" alt=""></a>        
+         </div>
+     </div>
+     <br>
+     
+       <div id="line"></div>
+       <br>
+       
+      
+     </div>
+     <div class="container">
+        <p>© Copyright 2024 RealEstate. Designed and Developed by Bigwig Digital Solution Pvt Ltd</p>
+     </div>
+</footer>
+-->
+
+  <script>
+    var li = document.getElementsByClassName("lineheight")[0].getElementsByTagName("h1");
+var preview = document.getElementsByClassName("preview");
+var index = 0;
+
+function right() {
+    // Ensure index wraps around when it exceeds the number of previews
+    if (index < li.length - 1) {
+        li[index].classList.remove("active");
+        preview[index].classList.remove("active-preview");
+        index++;
+        li[index].classList.add("active");
+        preview[index].classList.add("active-preview");
+    } else {
+        // Reset to the first element when reaching the end
+        li[index].classList.remove("active");
+        preview[index].classList.remove("active-preview");
+        index = 0;
+        li[index].classList.add("active");
+        preview[index].classList.add("active-preview");
+    }
+}
+
+function left() {
+    // Ensure index wraps around when it goes below 0
+    if (index > 0) {
+        li[index].classList.remove("active");
+        preview[index].classList.remove("active-preview");
+        index--;
+        li[index].classList.add("active");
+        preview[index].classList.add("active-preview");
+    } else {
+        // Set to the last element when reaching the beginning
+        li[index].classList.remove("active");
+        preview[index].classList.remove("active-preview");
+        index = li.length - 1;
+        li[index].classList.add("active");
+        preview[index].classList.add("active-preview");
+    }
+}
+
+  </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  </div>
+</body>
+</html>

@@ -1,0 +1,128 @@
+@media (max-width: 768px) {
+  .background-img {
+      flex-direction: column;
+     
+  }
+
+  .form-container {
+      margin-top: auto; /* Push form to the bottom */
+      margin-bottom: 0; /* Align the form container to the bottom */
+      width: 100%; /* Ensure form takes full width on small screens */
+      padding: 15px;
+  }
+
+  .form-button {
+      width: 100%; /* Make button full width */
+  }
+
+  .form-content {
+      padding: 10px;
+  }
+}
+@keyframes scroll {
+  0% {
+    transform: translatex(calc(-150px * 9));
+    
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@media screen and (max-width:500px) {
+  .discover_section_sideimg{
+      width: 350px;
+  }
+  .discover_section_sidecontent{
+      width: 350px;
+      margin-top: 20px;
+  }
+}
+/* ------------------------Discover Section Css End--------------------------------- */
+@media screen and (max-width:1500px) {
+  .location{
+      width: 500px;
+  }
+  .rightimg img{
+      display: none;
+  }
+  .aboutuscontent{
+      left: 10px;
+      width: 330px;
+      top: 380px;
+      padding: 15px 0px;
+  }
+ 
+  .projectaboutsus{
+      width: 350px;
+  }
+  .headdersection{
+      display: none;
+  }
+
+
+}
+@media screen and (max-width:800px){
+.aboutusimg img{
+    width: 100vw
+}
+.projectsectionimg img{
+    width: 100vw;
+    left: 0px;
+}
+}
+
+
+@media screen and (max-width:1200px) {
+  .hero_section_sideimg{
+      display: none;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .herobtn{
+      margin: 10px 0px;
+  }
+}
+
+
+
+@media screen and (max-width:500px){
+  .testmonials-cards{
+      width: 350px;
+      height: 400px;
+
+  }
+  .testmonials-cards p{
+      width: 320px;
+  }
+  .card-content{
+      margin-top: 50px;
+  }
+  .card-content h1{
+      font-size: 37px;
+  }
+  .arrows{
+      padding: 20px 0px;
+  }
+  .herobtn{
+      margin: 10px 0px;
+  }
+  
+}
+@media screen and (max-width:700px){
+  .input-field{
+      width: 190px;
+      height: 40px;
+      font-size: 16px;
+      padding: 0px;
+      margin: 0px;
+  }
+  .input-field button{
+      width: 50px;
+  }
+  .input-field img{
+      width: 20px;
+  }
+}
